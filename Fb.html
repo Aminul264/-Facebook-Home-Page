@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fb Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <style>
+        .header .fa {
+            color:lightgray;
+        }
+
+        .header {
+            height: 40px;
+            background-color: mediumvioletred;
+            padding-left: 40px;
+            line-height: 40px;
+        }
+
+        input {
+            height: 20px;
+        }
+
+        .cover {
+            background-image: url("cover.jpg");
+            background-size: 500px 315px;
+            height: 315px;
+            border: 0.5px solid gray;
+        }
+
+        .main-content {
+            margin-left: 200px;
+            width: 500px;
+        }
+
+        .profile {
+            background-image: url("profile.jpg");
+            background-size: 160px 160px;
+            height: 160px;
+            width: 160px;
+            position: relative;
+            top: 155px;
+            left: 10px;
+            border-radius: 150px;
+        }
+        .timeline{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <i class="fa fa-facebook-official"></i>
+        <input type="text" placeholder="Aminul Islam">
+        <span>
+            <i title="home " class="fa fa-home"></i>
+
+            <i class=" fa fa-globe"></i>
+            <i class="fa fa-bell"></i>
+
+        </span>
+    </div>
+    <div class="main-content">
+        <div class="cover">
+            <div class="profile">
+            </div>
+        </div>
+        <div class="timeline">
+            <textarea placeholder="what's on your mind?" name="" id="" cols="40" rows="2"></textarea>
+            <br>
+            <button class="btn btn-success">post</button>
+        </div>
+    </div>
+  
+</body>
+
+</html>
